@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 <div align="center">
  <a href="https://linkedin.com/in/afandiaziz" target="_blank">
-   <img align="center" alt="Badra S | Linkedin " width="40px" src="http://www.prepare1.com/wp-content/uploads/2014/04/linkedin-logo-high-res-1254-1024x1024.jpg"</a>
+   <img align="center" alt="Afandi Aziz | Linkedin " width="40px" src="http://www.prepare1.com/wp-content/uploads/2014/04/linkedin-logo-high-res-1254-1024x1024.jpg"</a>
 <!--   
   <a href="https://twitter.com/bdrsmsdn" target="_blank">
     <img align="center" alt="Badra S | Twitter" width="41px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg" />
@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 <br>
 
 <div align="center">
-<h3>💻 Informatics Enjoyer | 🌏 Bandung, ID </h3>
+<h3>💻 Informatics Enjoyer | 🌏 Bekasi, Indonesia </h3>
 </div>
 
 ### About Me
