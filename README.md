@@ -62,9 +62,9 @@ Here are some ideas to get you started:
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/php/php.png"></code>
 
+![github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=afandiaziz&layout=compact)
+ 
 
 <br>
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true&count_private=true)
-
-![github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=afandiaziz&layout=compact)
