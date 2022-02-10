@@ -65,6 +65,6 @@ Here are some ideas to get you started:
 
 <br>
 
-![Badra's github stats](https://github-readme-stats.vercel.app/api?username=afandiaziz&count_private=true&show_icons=true&theme=default)
+![github stats](https://github-readme-stats.vercel.app/api?username=afandiaziz&count_private=true&show_icons=true&theme=default&hide=contribs,prs)
 
-
+![github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=madjiebimaa&layout=compact)
