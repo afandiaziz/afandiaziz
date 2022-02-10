@@ -65,6 +65,6 @@ Here are some ideas to get you started:
 
 <br>
 
-![github stats](https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true)
+![github stats](https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true&count_private=true)
 
 ![github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=afandiaziz&layout=compact)
