@@ -44,7 +44,7 @@ Here are some ideas to get you started:
 
 - 📊 Ngoding kalo gabut
 - ⚡️ I’m currently working on my personal project
-- 🌱 I’m currently learning React
+- 🌱 I’m currently learning React & Ruby
 - ✨ Interested in backend-ish & mobile things
 - 🤔 Looking for a girl who loves coding;
 <!-- - ⚡️ Currently developing impactful solutions at <a href="https://speedboostr.com?ref=johnkirtley" target="_blank">Speed Boostr</a>.
