@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 <div align="center">
  <a href="https://linkedin.com/in/afandiaziz" target="_blank">
-   <img align="center" alt="Afandi Aziz | Linkedin " width="40px" src="https://img.icons8.com/fluency/344/linkedin.png" />  
+   <img align="center" alt="Afandi Aziz | Linkedin " src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />  
  </a>
  <!--   
    <a href="https://twitter.com/bdrsmsdn" target="_blank">
