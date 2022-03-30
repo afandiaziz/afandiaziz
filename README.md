@@ -60,7 +60,7 @@ Here are some ideas to get you started:
 
 <div>
   <div style="display: flex; align-items: flex-start;">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" alt="Afandi Aziz Github Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&theme=dracula" alt="Afandi Aziz Github Stats" />
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afandiaziz&layout=compact&theme=dracula&hide_border=true" alt="Afandi Aziz Most Used Languages" />   
   </div>
 </div>
