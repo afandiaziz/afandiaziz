@@ -25,7 +25,7 @@ Full-Stack Web Developer
 * ✉️  You can contact me at [afandiaziz46@gmail.com](mailto:afandiaziz46@gmail.com)
 * 📊 Ngoding kalo gabut
 * 🧠  I'm learning Ruby on Rails
-* ⚡️ I’m currently developing on my personal project
+* ⚡️ I’m currently developing for Directorate General of Higher Education, Research and Technology of the Ministry of Education and Culture
 * ✨ Interested in Back-End, Front-End & DevOps
 * 🤔 Looking for a girl who loves coding;
 
@@ -43,6 +43,17 @@ Full-Stack Web Developer
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/python/python.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/html/html.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code> -->
+
+### Socials
+
+<p align="left">
+  <a href="https://www.github.com/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="40" height="40" /></a> 
+  &nbsp;
+  <a href="http://www.instagram.com/muhammadafandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="40" height="40" /></a> 
+  &nbsp;
+  <a href="https://www.linkedin.com/in/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="40" /></a>
+</p>
+
 
 <div>
   <div style="display: flex; align-items: flex-start;">
