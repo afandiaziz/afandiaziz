@@ -18,8 +18,8 @@ Here are some ideas to get you started:
 Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"> My name is Afandi Aziz
 ============================
 
-Full-Stack Web Developer
-------------------------
+<!-- Full-Stack Web Developer -->
+<!-- ------------------------ -->
 
 * 🌍  I'm based in Bekasi, Indonesia
 * ✉️  You can contact me at [afandiaziz46@gmail.com](mailto:afandiaziz46@gmail.com)
