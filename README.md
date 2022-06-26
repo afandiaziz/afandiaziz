@@ -37,10 +37,13 @@ Hi My name is Afandi Aziz
 
 
 ### Frequently Used Languages and Tools 
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="40" src="https://nodejs.org/static/images/logo.svg"></code> 
-<code><img height="50" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/php/php.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript"></code>
+<code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="ReactJS"></code>
+<code><img height="45" src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="NextJS"></code>
+<code><img height="40" src="https://nodejs.org/static/images/logo.svg" alt="NodeJS"></code> 
+<code><img height="45" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="Codeigniter"></code>
+<code><img height="45" src="https://img.icons8.com/fluency/344/laravel.png" alt="Laravel"></code>
+<code><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="Laravel"></code>
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/python/python.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/html/html.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code> -->
