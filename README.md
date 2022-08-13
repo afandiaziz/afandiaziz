@@ -25,7 +25,7 @@ Hi My name is Afandi Aziz
 * 🌍  I'm based in Bekasi, Indonesia
 * ✉️  You can contact me at [afandiaziz46@gmail.com](mailto:afandiaziz46@gmail.com)
 * 📊 Ngoding kalo gabut
-* 🧠  I'm learning Ruby on Rails
+* 🧠  I'm learning Go
 * ⚡️ I’m currently developing for Directorate General of Higher Education, Research and Technology of the Ministry of Education and Culture
 * ✨ Interested in Back-End, Front-End & DevOps
 * 🤔 Looking for a girl who loves coding;
@@ -65,5 +65,5 @@ Hi My name is Afandi Aziz
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afandiaziz&layout=compact&hide=css,less,html&title_color=ec4899&text_color=ffffff&bg_color=181824&hide_border=true" alt="Afandi Aziz Most Used Languages" />   
   </div>
   <a href="http://www.github.com/afandiaziz"><img src="https://github-readme-streak-stats.herokuapp.com/?user=afandiaziz&stroke=ffffff&background=181824&ring=ec4899&fire=ec4899&currStreakNum=ffffff&currStreakLabel=ec4899&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-  <a href="http://www.github.com/afandiaziz"><img src="https://activity-graph.herokuapp.com/graph?username=afandiaziz&bg_color=181824&color=ffffff&line=ec4899&point=ffffff&area_color=181824&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+  <!-- <a href="http://www.github.com/afandiaziz"><img src="https://activity-graph.herokuapp.com/graph?username=afandiaziz&bg_color=181824&color=ffffff&line=ec4899&point=ffffff&area_color=181824&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a> -->
 </div>
