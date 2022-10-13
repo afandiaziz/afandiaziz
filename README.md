@@ -43,7 +43,8 @@ Hi My name is Afandi Aziz
 <code><img height="40" src="https://nodejs.org/static/images/logo.svg" alt="NodeJS"></code> 
 <code><img height="45" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="Codeigniter"></code>
 <code><img height="45" src="https://img.icons8.com/fluency/344/laravel.png" alt="Laravel"></code>
-<code><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="Laravel"></code>
+<code><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="Ruby on Rails"></code>
+<code><img height="50" src="https://img.icons8.com/color/344/golang.png" alt="Golang"></code>
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/python/python.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/html/html.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code> -->
