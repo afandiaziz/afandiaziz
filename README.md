@@ -59,7 +59,7 @@ Hi My name is Afandi Aziz
   <a href="https://www.linkedin.com/in/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="40" /></a>
 </p>
 
-
+<!-- 
 <div>
   <div style="display: flex; align-items: flex-start;">
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=afandiaziz&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&title_color=ec4899&text_color=ffffff&bg_color=181824" alt="Afandi Aziz Github Stats" />
@@ -67,4 +67,4 @@ Hi My name is Afandi Aziz
   </div>
   <a href="http://www.github.com/afandiaziz"><img src="https://github-readme-streak-stats.herokuapp.com/?user=afandiaziz&stroke=ffffff&background=181824&ring=ec4899&fire=ec4899&currStreakNum=ffffff&currStreakLabel=ec4899&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
   <!-- <a href="http://www.github.com/afandiaziz"><img src="https://activity-graph.herokuapp.com/graph?username=afandiaziz&bg_color=181824&color=ffffff&line=ec4899&point=ffffff&area_color=181824&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a> -->
-</div>
+<!-- </div> -->
