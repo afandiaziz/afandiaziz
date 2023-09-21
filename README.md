@@ -16,8 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <!-- Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" style="width: 20px !important"> My name is Afandi Aziz -->
-Hi My name is Afandi Aziz
-============================
+# Hi, I'm Afandi Aziz 👋
 
 <!-- Full-Stack Web Developer -->
 <!-- ------------------------ -->
@@ -36,15 +35,27 @@ Hi My name is Afandi Aziz
 - ✈️ Fun Fact: Love international travel. -->
 
 
-### Frequently Used Languages and Tools 
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript"></code>
-<code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="ReactJS"></code>
-<code><img height="45" src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="NextJS"></code>
-<code><img height="40" src="https://nodejs.org/static/images/logo.svg" alt="NodeJS"></code> 
-<code><img height="45" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="Codeigniter"></code>
-<code><img height="45" src="https://img.icons8.com/fluency/344/laravel.png" alt="Laravel"></code>
-<code><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="Ruby on Rails"></code>
-<code><img height="50" src="https://img.icons8.com/color/344/golang.png" alt="Golang"></code>
+### Tech Stack:
+<p align="left">
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript"></code>
+  <code><img height="43" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" alt="PHP"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" alt="jQuery"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="ReactJS"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/28b02bbc9ad9f7a503c43775aebeb515dc2da5fc/topics/nextjs/nextjs.png" alt="NextJS"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="NodeJS"></code> 
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" alt="ExpressJS"></code> 
+  <code><img height="42" src="https://avatars.githubusercontent.com/u/13810373?s=200&v=4" alt="AdonisJS"></code>
+  <code><img height="40" src="https://avatars.githubusercontent.com/u/44521256?s=200&v=4" alt="Codeigniter"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/56a826d05cf762b2b50ecbe7d492a839b04f3fbf/topics/laravel/laravel.png" alt="Laravel"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="Ruby on Rails"></code>
+  <code><img width="50" height="42" src="https://go.dev/images/go-logo-white.svg" alt="Golang"></code>
+</p>
+<p align="left">
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostgreSQL"></code>
+  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/2d218e3aa252dc90eef269b34eeec1fbd15dc07e/topics/sqlite/sqlite.png" alt="SQLite"></code>
+</p>
+
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/python/python.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/html/html.png"></code> -->
 <!-- <code><img height="40" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code> -->
@@ -52,9 +63,9 @@ Hi My name is Afandi Aziz
 ### Socials
 
 <p align="left">
-  <a href="https://www.github.com/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="40" height="40" /></a> 
-  &nbsp;
-  <a href="http://www.instagram.com/muhammadafandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="40" height="40" /></a> 
+  <!-- <a href="https://www.github.com/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="40" height="40" /></a> 
+  &nbsp; -->
+  <a href="http://www.instagram.com/_afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="40" height="40" /></a> 
   &nbsp;
   <a href="https://www.linkedin.com/in/afandiaziz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="40" /></a>
 </p>
