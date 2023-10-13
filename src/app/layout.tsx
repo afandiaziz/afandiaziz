@@ -1,35 +1,35 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Plus_Jakarta_Sans } from 'next/font/google'
+import { Outfit } from 'next/font/google'
 
-const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
+const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-   title: 'Afandi Aziz',
-   description: 'Portfolio of Afandi Aziz',
+    title: 'Afandi Aziz',
+    description: 'Portfolio of Afandi Aziz',
 }
 
 export default function RootLayout({
-   children,
+    children,
 }: {
-   children: React.ReactNode
+    children: React.ReactNode
 }) {
-   return (
-      <html lang="en">
-         <head>
+    return (
+        <html lang="en">
+            <head>
 
-         </head>
-         <body className={plusJakartaSans.className}>
-            <nav className="flex justify-around mt-5">
-               <div className="flex gap-x-11 bg-white py-5 px-10 border rounded-full z-50 drop-shadow sticky top-0 backdrop-blur-lg">
-                  <a href="#" className="text-base leading-6 text-gray-500 font-medium hover:font-bold hover:text-zinc-800">About</a>
-                  <a href="#" className="text-base leading-6 text-gray-500 font-medium hover:font-bold hover:text-zinc-800">Work</a>
-                  <a href="#" className="text-base leading-6 text-gray-500 font-medium hover:font-bold hover:text-zinc-800">Tech Stacks</a>
-                  <a href="#" className="text-base leading-6 text-gray-500 font-medium hover:font-bold hover:text-zinc-800">Contact</a>
-               </div>
-            </nav>
-            {/* {children} */}
-         </body>
-      </html>
-   )
+            </head>
+            <body className={outfit.className}>
+                <nav className="flex justify-center mt-5 sticky top-7">
+                    <div className="flex py-1 px-3 border border-gray-500 border-opacity-60 rounded-lg z-50 drop-shadow-sm backdrop-blur-2xl">
+                        <a href="#" className="text-base leading-6 text-gray-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-zinc-800 hover:bg-opacity-50 hover:bg-gray-300">About</a>
+                        <a href="#" className="text-base leading-6 text-gray-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-zinc-800 hover:bg-opacity-50 hover:bg-gray-300">Experiences</a>
+                        <a href="#" className="text-base leading-6 text-gray-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-zinc-800 hover:bg-opacity-50 hover:bg-gray-300">Projects</a>
+                        <a href="#" className="text-base leading-6 text-gray-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-zinc-800 hover:bg-opacity-50 hover:bg-gray-300">Contact</a>
+                    </div>
+                </nav>
+                {children}
+            </body>
+        </html>
+    )
 }
