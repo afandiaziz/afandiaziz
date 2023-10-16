@@ -21,12 +21,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const PORT = process.env.PORT || 8080;
 
 app.use('/api/profile', profileRouter);
 app.use('/api/experiences', experiencesRouter);
 app.use('/api/stacks', stacksRouter);
 
+const PORT = process.env.APP_PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
 
 module.exports = app;

@@ -4,7 +4,8 @@
     "description": "backend portfolio",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon ./bin/www"
+        "start": "node index.js",
+        "dev": "nodemon ./bin/www"
     },
     "author": "",
     "license": "ISC",
