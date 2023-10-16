@@ -2,10 +2,7 @@
     "name": "backend",
     "version": "1.0.0",
     "description": "backend portfolio",
-    "main": "index.js",
-    "engines": {
-        "node": "16.x"
-    },
+    "main": "app.js",
     "scripts": {
         "start": "nodemon ./bin/www"
     },
