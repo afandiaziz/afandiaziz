@@ -15,7 +15,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en">
+        <html lang="en" className='scroll-smooth'>
             <head>
             </head>
             <body className={`${outfit.className} bg-zinc-100`}>

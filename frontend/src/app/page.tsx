@@ -23,16 +23,17 @@ export default async function Dashboard() {
     const { profile, experiences } = await getData();
     return (
         <>
-            <nav className="flex justify-center mt-5 sticky top-7 z-20">
+            <nav className="sm:flex justify-center mt-5 sticky top-7 z-20 hidden">
                 <div className="flex py-1 px-3 border border-neutral-500 border-opacity-60 rounded-lg z-50 drop-shadow-sm backdrop-blur-2xl">
-                    <a href="#" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">About</a>
-                    <a href="#" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Experiences</a>
-                    <a href="#" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Projects</a>
+                    <a href="#about" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">About</a>
+                    <a href="#experiences" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Experiences</a>
+                    <a href="#tech-stacks" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Tech Stacks</a>
+                    <a href="#projects" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Projects</a>
                     <a href="#" className="text-base leading-6 text-neutral-500 py-2 px-5 rounded-lg hover:font-semibold hover:text-white hover:bg-zinc-800">Contact</a>
                 </div>
             </nav>
-            <main className="container mx-auto lg:my-18 my-10 min-h-screen">
-                <section className="mx-auto justify-center max-w-2xl my-10">
+            <main className="container mx-auto min-h-screen lg:py-18 py-10 px-4" id='about'>
+                <section className="mx-auto justify-center max-w-2xl py-5">
                     <Image
                         src={profile.profilePictureUrl}
                         alt={profile.displayName}
@@ -67,8 +68,8 @@ export default async function Dashboard() {
                         </div>
                     </div>
                 </section>
-                <section className="mx-auto justify-center max-w-2xl my-10" id="experiences">
-                    <div className="mb-6 sm:text-3xl font-medium flex items-center gap-4">
+                <section className="mx-auto justify-center max-w-3xl py-5" id="experiences">
+                    <div className="mb-6 sm:text-3xl font-medium flex items-center gap-4 mt-16">
                         <div className="p-4 rounded-lg bg-gradient-to-br from-slate-300 to-zinc to-60%">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -82,13 +83,13 @@ export default async function Dashboard() {
                             Experiences
                         </h2>
                     </div>
-                    <div className="flex flex-col md:gap-6">
+                    <div className="flex flex-col md:gap-5">
                         {
                             experiences.map((experience: any, index: number) => {
                                 return (
                                     experiences[index + 1]?.company.id == experience.company.id ? (
                                         <>
-                                            <div className={`items-center flex relative gap-4 [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
+                                            <div className={`items-center flex relative gap-4 transition [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
                                                 <div className='rounded-lg p-1 bg-white border z-10 flex-none'>
                                                     <img src={experience.company.logoUrl} alt={experience.companyName} width={45} className='rounded-lg' />
                                                 </div>
@@ -98,7 +99,7 @@ export default async function Dashboard() {
                                                     </h3>
                                                 </div>
                                             </div>
-                                            <div className={`items-start flex relative gap-4 [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
+                                            <div className={`items-start flex relative gap-4 transition [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
                                                 <div className='px-3 z-10 bg-zinc-100'>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -125,7 +126,7 @@ export default async function Dashboard() {
                                         </>
                                     ) : (
                                         <>
-                                            <div className={`items-start flex relative gap-4 [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
+                                            <div className={`items-start flex relative gap-4 transition [&:not(:last-child)]:before:content-[''] [&:not(:last-child)]:before:absolute [&:not(:last-child)]:before:w-[2px] [&:not(:last-child)]:before:h-calc [&:not(:last-child)]:before:bg-slate-300 [&:not(:last-child)]:before:left-[27px] [&:not(:last-child)]:before:-top-[24px] [&:not(:last-child)]:before:z-0`} key={index}>
                                                 {!experiences[index - 1] || experiences[index - 1]?.company.id != experience.company.id ? (
                                                     <div className='rounded-lg p-1 bg-white border z-10 flex-none'>
                                                         <img src={experience.company.logoUrl} alt={experience.companyName} width={45} className='rounded-lg' />
@@ -184,7 +185,7 @@ export default async function Dashboard() {
                         </Link>
                     </div>
                 </section>
-                <section className="mx-auto justify-center max-w-2xl my-10" id="education">
+                <section className="mx-auto justify-center max-w-3xl py-5" id="education">
                     <div className="mb-6 sm:text-3xl font-medium flex items-center gap-4">
                         <div className="p-4 rounded-lg bg-gradient-to-br from-slate-300 to-zinc to-60%">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -204,7 +205,7 @@ export default async function Dashboard() {
 
                     </div>
                 </section>
-                <section className="mx-auto justify-center max-w-2xl my-10" id="tech-stacks">
+                <section className="mx-auto justify-center max-w-3xl py-5" id="tech-stacks">
                     <div className="mb-6 sm:text-3xl font-medium flex items-center gap-4">
                         <div className="p-4 rounded-lg bg-gradient-to-br from-slate-300 to-zinc to-60%">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -223,7 +224,7 @@ export default async function Dashboard() {
 
                     </div>
                 </section>
-                <section className="mx-auto justify-center max-w-2xl my-10" id="projects">
+                <section className="mx-auto justify-center max-w-3xl py-5" id="projects">
                     <div className="mb-6 sm:text-3xl font-medium flex items-center gap-4">
                         <div className="p-4 rounded-lg bg-gradient-to-br from-slate-300 to-zinc to-60%">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
