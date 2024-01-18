@@ -5,17 +5,17 @@ async function getData() {
     try {
         let data: any = {};
         data.profile = await fetch(`${process.env.API_URI}/profile`, {
-            cache: 'no-cache'
-        }).then(res => res.json()).then(({ data }) => data).catch(err => { throw new Error(err) });
+            // cache: 'no-cache'
+        }).then(res => res.json()).then(({ data }) => data).catch(err => { throw new Error('profile: ' + err) });
         data.experiences = await fetch(`${process.env.API_URI}/experiences`, {
-            cache: 'no-cache'
-        }).then(res => res.json()).then(({ data }) => data.slice(0, 3)).catch(err => { throw new Error(err) });
+            // cache: 'no-cache'
+        }).then(res => res.json()).then(({ data }) => data.slice(0, 3)).catch(err => { throw new Error('experiences: ' + err) });
         data.stacks = await fetch(`${process.env.API_URI}/stacks`, {
-            cache: 'no-cache'
-        }).then(res => res.json()).then(({ data }) => data).catch(err => { throw new Error(err) });
+            // cache: 'no-cache'
+        }).then(res => res.json()).then(({ data }) => data).catch(err => { throw new Error('stacks: ' + err) });
         return data;
     } catch (error) {
-        throw new Error("Error fetching data: " + error);
+        throw new Error("Fetching data: " + error);
     }
 }
 
