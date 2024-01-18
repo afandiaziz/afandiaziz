@@ -1,16 +1,16 @@
 // import connect from "@/../server";
-const { Experience } = require('../../../models');
+const { Stack } = require('../../models');
 
 module.exports = async (req, res) => {
     try {
-        const data = await Experience.find({}).sort({ current: -1, endDate: -1 });
+        const data = await Stack.find();
         return res.json({
-            status: 'success',
+            message: 'success',
             data
         });
     } catch (error) {
         res.status(500).json({
-            status: 'error',
+            message: 'error',
             message: error
         });
     }

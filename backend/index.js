@@ -2,9 +2,6 @@ require('dotenv').config();
 const path = require('path');
 const express = require('express');
 const mongoose = require("mongoose");
-const profileRouter = require('./routes/profile');
-const experiencesRouter = require('./routes/experiences');
-const stacksRouter = require('./routes/stacks');
 
 const app = express();
 
@@ -22,9 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/api/profile', profileRouter);
-app.use('/api/experiences', experiencesRouter);
-app.use('/api/stacks', stacksRouter);
+app.use('/api', require('./routes/api'));
 
 const PORT = process.env.APP_PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
