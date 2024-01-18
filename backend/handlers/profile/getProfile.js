@@ -4,13 +4,13 @@ module.exports = async (req, res) => {
     try {
         const data = await Profile.findOne();
         return res.json({
-            message: 'success',
+            status: 'success',
             data
         });
-    } catch (error) {
+    } catch ({message}) {
         res.status(500).json({
-            message: 'error',
-            message: error
+            status: 'error',
+            message
         });
     }
 };

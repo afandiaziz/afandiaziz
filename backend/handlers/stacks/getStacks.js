@@ -8,10 +8,10 @@ module.exports = async (req, res) => {
             message: 'success',
             data
         });
-    } catch (error) {
+    } catch ({message}) {
         res.status(500).json({
-            message: 'error',
-            message: error
+            status: 'error',
+            message
         });
     }
 };
